@@ -11,9 +11,16 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ControladorHojaCalculo {
+<<<<<<< Updated upstream
     private VistaPrincipal vista;
     private Libro libro;
 
+=======
+    
+    private VistaPrincipal vista;
+    private Libro libro;
+    
+>>>>>>> Stashed changes
     public ControladorHojaCalculo(VistaPrincipal vista, Libro libro) 
     {
         this.vista = vista;
@@ -81,4 +88,8 @@ public class ControladorHojaCalculo {
         panel.revalidate();
         panel.repaint();
     }
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
 }
